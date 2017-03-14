@@ -1,0 +1,190 @@
+/* fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+/* all */
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	margin: 0;
+	font-weight: 400;
+}
+
+/* grid style framework */
+
+.row {
+	width: 100%;
+	display: flex;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+/* navigation bar */
+
+.nav-bar {
+	background: #FAFAFA;
+	color: #757575;
+}
+
+.nav-bar ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+	background-color: inherit;
+}
+
+.nav-bar li {
+	float: left;
+}
+
+.nav-bar li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 16px;
+	color: inherit;
+}
+
+/* css */
+
+.t-header {
+	background: #F44336;
+	padding-top: 36px;
+	padding-bottom: 36px;
+	box-shadow: 0px 8px 8px lightgrey;
+}
+
+.t-header-main-text {
+	color: white;
+	font-size: 36px;
+	font-weight: 300;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.t-header-text {
+	color: white;
+	font-size: 24px;
+	font-weight: 300;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.t-header-link-container {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.t-header-link {
+	border-radius: 2px;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 12px 12px;
+	background-color: #FAFAFA;
+	border-style: none;
+	color: #F44336;
+	box-shadow: 3px 3px 2px #B71C1C;
+	text-align: center;
+	text-decoration: none;
+}
+
+.t-basic {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.t-basic-main-text {
+	font-size: 32px;
+	font-weight: 300;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.t-basic-text {
+	font-size: 18px;
+	font-weight: 300;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.t-basic-link-container {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.t-basic-link {
+	font-size: 18px;
+	font-weight: 500;
+	color: #F44336;
+	text-decoration: none;
+}
+
+#row-1 {
+
+}
+
+#row-2 {
+	background: ghostwhite;
+}
+
+.t-footer {
+	background: #455A64;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.t-footer-text {
+	color: white;
+	font-weight: 100;
+	font-size: 12px;
+}
